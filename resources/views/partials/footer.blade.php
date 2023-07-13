@@ -15,7 +15,7 @@
                                 eget pharetra augue efficitur. Vestibulum viverra, dolor sit amet ultricies.</p>
                         </div>
                         <div class="footer-widget__btn">
-                            <a href="donate-now.html"> <span class="fa fa-heart"></span>Donate now</a>
+                            <a href="donate-now.html"> <span class="fa fa-heart"></span>FAIRE UN DON MAINTENANT</a>
                         </div>
                     </div>
                 </div>
@@ -23,11 +23,13 @@
                     <div class="footer-widget__column footer-widget__links clearfix">
                         <h3 class="footer-widget__title">Links</h3>
                         <ul class="footer-widget__links-list list-unstyled clearfix">
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="news.html">Latest News</a></li>
-                            <li><a href="event-details.html">Recent Events</a></li>
-                            <li><a href="donation.html">Donations</a></li>
+                            <li><a href="{{ route('about') }}">Apropos</a></li>
+                            <li><a href="{{ route('training') }}">Nos Formations</a></li>
+                            <li><a href="{{ route('donations') }}">Donations</a></li>
+                            <li><a href="{{ route('departements') }}">Nos Départements</a></li>
+                            <li><a href="{{ route('events') }}">Événements</a></li>
+                            <li><a href="{{ route('blog') }}">Blog</a></li>
+                            <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -35,18 +37,18 @@
                     <div class="footer-widget__column footer-widget__non-profit clearfix">
                         <h3 class="footer-widget__title">Non profit</h3>
                         <ul class="footer-widget__non-profit-list list-unstyled clearfix">
-                            <li><a href="donation-details.html">Differently Abled Kids</a></li>
-                            <li><a href="donation-details.html">Help Child Cancer</a></li>
-                            <li><a href="donation-details.html">Clean Pure Water</a></li>
-                            <li><a href="donation-details.html">Give them Education</a></li>
-                            <li><a href="donation-details.html">Start a Fundraising</a></li>
+                            <li><a href="{{ route('donations') }}">Differently Abled Kids</a></li>
+                            <li><a href="{{ route('donations') }}">Help Child Cancer</a></li>
+                            <li><a href="{{ route('donations') }}">Clean Pure Water</a></li>
+                            <li><a href="{{ route('donations') }}">Give them Education</a></li>
+                            <li><a href="{{ route('donations') }}">Start a Fundraising</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="footer-widget__column footer-widget__contact">
                         <h3 class="footer-widget__title">Contact</h3>
-                        <p class="footer-widget__contact-text">380 Street Kilda Broklyn Road <br> Melbourne
+                        <p class="footer-widget__contact-text">R380 Street Kilda Broklyn Road r> AMelbourne
                             Australia
                         </p>
                         <ul class="list-unstyled footer-widget__contact-list">
@@ -55,7 +57,7 @@
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:needhelp@company.com ">needhelp@company.com</a></p>
+                                    <p><a href="mailto:contact@beniversity.com ">contact@beniversity.com</a></p>
                                 </div>
                             </li>
                             <li>
@@ -63,7 +65,7 @@
                                     <i class="fas fa-phone-alt"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="tel:980009630">+ 98 (000) - 9630</a></p>
+                                    <p><a href="tel:98617348">+ 229 98 61 73 48</a></p>
                                 </div>
                             </li>
                         </ul>
