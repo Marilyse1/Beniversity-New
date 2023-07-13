@@ -20,17 +20,13 @@ Route::get('/', function () {
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class,'about'])->name('about');
-Route::get('/donation', [HomeController::class,'donation'])->name('donation');
+Route::get('/blog', [HomeController::class,'blog'])->name('blog');
+Route::get('/donations', [HomeController::class,'donations'])->name('donations');
 Route::get('/donation-details', [HomeController::class,'donation_details'])->name('donation-details');
 Route::get('/donate-now', [HomeController::class,'donate_now'])->name('donate-now');
-Route::get('/donation-carousel', [HomeController::class,'donation_carousel'])->name('donation-carousel');
-Route::post('/donation-list', [HomeController::class,'donation-list'])->name('donation-list');
 Route::get('/events', [HomeController::class,'events'])->name('events');
-Route::post('/event-details', [HomeController::class,'event_details'])->name('event-details');
-Route::get('/events-carousel', [HomeController::class,'events_carousel'])->name('events-carousel');
-Route::post('/faq', [HomeController::class,'faq'])->name('faq');
-Route::get('/gallery', [HomeController::class,'gallery'])->name('gallery');
-Route::post('/contact', [HomeController::class,'contact']);
+Route::get('/event-details', [HomeController::class,'event_details'])->name('event-details');
+Route::get('/contact', [HomeController::class,'contact'])->name('contact');
 Route::get('/departements', [HomeController::class,'departements'])->name('departements');
 Route::post('/departement-details', [HomeController::class,'departement_details'])->name('departement-details');
-
+Route::get('/training', [HomeController::class,'training'])->name('training');
