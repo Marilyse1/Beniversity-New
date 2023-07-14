@@ -39,7 +39,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Email</p>
-                                            <h5><a href="mailto:needhelp@company.com">contact@beniversity.com</a>
+                                            <h5><a href="mailto:contact@beniversity.com">contact@beniversity.com</a>
                                             </h5>
                                         </div>
                                     </li>

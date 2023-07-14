@@ -29,4 +29,4 @@ Route::get('/event-details', [HomeController::class,'event_details'])->name('eve
 Route::get('/contact', [HomeController::class,'contact'])->name('contact');
 Route::get('/departements', [HomeController::class,'departements'])->name('departements');
 Route::post('/departement-details', [HomeController::class,'departement_details'])->name('departement-details');
-Route::get('/training', [HomeController::class,'training'])->name('training');
+Route::get('/trainings', [HomeController::class,'trainings'])->name('trainings');

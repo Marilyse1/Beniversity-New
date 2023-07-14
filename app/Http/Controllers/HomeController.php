@@ -16,9 +16,9 @@ class HomeController extends Controller
         return view('about');
     }
 
-    public function donation()
+    public function donations()
     {
-        return view('donation');
+        return view('donations');
     }
 
     public function donation_details()
@@ -31,39 +31,24 @@ class HomeController extends Controller
         return view('donate-now');
     }
 
-    public function donation_carousel()
-    {
-        return view('donation-carousel');
-    }
-
-    public function donation_list()
-    {
-        return view('donation-list');
-    }
-
     public function events()
     {
         return view('events');
     }
 
+    public function blog()
+    {
+        return view('blog');
+    }
+
+    public function trainings()
+    {
+        return view('trainings');
+    }
+
     public function event_details()
     {
         return view('event-details');
-    }
-
-    public function events_carousel()
-    {
-        return view('events-carousel');
-    }
-
-    public function faq()
-    {
-        return view('faq');
-    }
-
-    public function gallery()
-    {
-        return view('gallery');
     }
 
     public function contact()

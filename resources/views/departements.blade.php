@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-
+    
     <!--Page Header Start-->
     <section class="page-header">
         <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
@@ -18,7 +18,7 @@
         </div>
     </section>
     <!--Page Header End-->
-
+    
     <!--News details Start-->
     <section class="news-details">
         <div class="container">
@@ -106,7 +106,7 @@
         </div>
     </section>
     <!--Events Page End-->
-
+    
                         <div class="news-details__bottom">
                             <p class="news-details__tags">
                                 <span>Tags</span>
@@ -316,3 +316,4 @@
     <!--News details End-->
 
 @endsection
+
