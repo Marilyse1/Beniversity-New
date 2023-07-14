@@ -21,10 +21,10 @@
                 </div>
                 <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="footer-widget__column footer-widget__links clearfix">
-                        <h3 class="footer-widget__title">Links</h3>
+                        <h3 class="footer-widget__title">Liens</h3>
                         <ul class="footer-widget__links-list list-unstyled clearfix">
                             <li><a href="{{ route('about') }}">Apropos</a></li>
-                            <li><a href="{{ route('training') }}">Nos Formations</a></li>
+                            <li><a href="{{ route('trainings') }}">Nos Formations</a></li>
                             <li><a href="{{ route('donations') }}">Donations</a></li>
                             <li><a href="{{ route('departements') }}">Nos Départements</a></li>
                             <li><a href="{{ route('events') }}">Événements</a></li>
@@ -48,8 +48,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="footer-widget__column footer-widget__contact">
                         <h3 class="footer-widget__title">Contact</h3>
-                        <p class="footer-widget__contact-text">R380 Street Kilda Broklyn Road r> AMelbourne
-                            Australia
+                        <p class="footer-widget__contact-text">Rue du Supermarché Dupont, 
+                            <br> Arconville, Abomey-Calavi, Benin
                         </p>
                         <ul class="list-unstyled footer-widget__contact-list">
                             <li>

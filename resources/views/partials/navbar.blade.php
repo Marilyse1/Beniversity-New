@@ -39,7 +39,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Email</p>
-                                            <h5><a href="mailto:needhelp@company.com">contact@beniversity.com</a>
+                                            <h5><a href="mailto:contact@beniversity.com">contact@beniversity.com</a>
                                             </h5>
                                         </div>
                                     </li>
@@ -70,7 +70,7 @@
                                     <a href="{{ route('home') }}">Accueil</a>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#">Apropos</a>
+                                    <a href="{{ route('about') }}">Apropos</a>
                                     <ul>
                                         <li><a href="{{ route('about') }}">About</a></li>
                                         <li><a href="volunteer.html">Volunteer</a></li>
@@ -83,7 +83,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#">Formations</a>
+                                    <a href="{{ route('trainings') }}">Formations</a>
                                     <ul>
                                         <li><a href="news.html">News</a></li>
                                         <li><a href="news-carousel.html">News carousel</a></li>
@@ -130,9 +130,4 @@
             </div>
         </div>
     </nav>
-</header>              </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-</header>
+</header>             
