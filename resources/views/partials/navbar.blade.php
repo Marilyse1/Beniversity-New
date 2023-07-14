@@ -30,7 +30,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Téléphone</p>
-                                            <h5><a href="tel:980009630">+ 229 98 61 73 48</a></h5>
+                                            <h5><a href="tel:98617348">+ 229 98 61 73 48</a></h5>
                                         </div>
                                     </li>
                                     <li>
@@ -47,9 +47,9 @@
                                         <div class="icon">
                                             <span class="icon-location"></span>
                                         </div>
-                                        <div class="content">
-                                            <p>Cotonou, Benin</p>
-                                            <h5>Melbourne, Australia</h5>
+                                        <div class="content"> 
+                                            <p>Rue du Supermarché Dupont,</p>
+                                            <h5>Arconville, Abomey-Calavi, Benin</h5>
                                         </div>
                                     </li>
                                 </ul>
@@ -69,28 +69,11 @@
                                 <li class="current megamenu">
                                     <a href="{{ route('home') }}">Accueil</a>
                                 </li>
-                                <li class="dropdown">
+                                <li>
                                     <a href="{{ route('about') }}">Apropos</a>
-                                    <ul>
-                                        <li><a href="{{ route('about') }}">About</a></li>
-                                        <li><a href="volunteer.html">Volunteer</a></li>
-                                        <li><a href="become-volunteer.html">Become volunteer</a></li>
-                                        <li><a href="volunteer-carousel.html">Volunteer carousel</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="gallery-carousel.html">Gallery carousel</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
-                                    </ul>
                                 </li>
-                                <li class="dropdown">
+                                <li>
                                     <a href="{{ route('trainings') }}">Formations</a>
-                                    <ul>
-                                        <li><a href="news.html">News</a></li>
-                                        <li><a href="news-carousel.html">News carousel</a></li>
-                                        <li><a href="news-sidebar.html">News right sidebar</a></li>
-                                        <li><a href="news-sidebar-left.html">News left sidebar</a></li>
-                                        <li><a href="news-details.html">News details</a></li>
-                                    </ul>
                                 </li>
                                 <li>
                                     <a href="{{ route('donations') }}">Donations</a>
@@ -114,9 +97,6 @@
                                 <div class="main-menu__search-box">
                                     <a href="#"
                                         class="main-menu__search search-toggler icon-magnifying-glass"></a>
-                                </div>
-                                <div class="main-menu__cat-box">
-                                    <a href="cart.html" class="main-menu__cart icon-shopping-cart"></a>
                                 </div>
                                 <div class="main-menu__btn-box" style="background: #ffd105" >
                                     <a href="donate-now.html" class="main-menu__btn" style="background: #ffd105"> <span
