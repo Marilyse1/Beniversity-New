@@ -8,11 +8,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__about-logo">
-                            <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
-                        </div>
-                        <div class="footer-widget__about-text-box">
-                            <p class="footer-widget__about-text">Nulla ultricies justo sit amet ante efficitur,
-                                eget pharetra augue efficitur. Vestibulum viverra, dolor sit amet ultricies.</p>
+                            <a href="{{ route('home') }}"><img src="assets/images/resources/logo.png" alt="" style="max-width: 240px; max-height: 240px"></a>
                         </div>
                         <div class="footer-widget__btn">
                             <a href="{{ route('donate-now') }}"> <span class="fa fa-heart"></span>FAIRE UN DON MAINTENANT</a>
@@ -21,10 +17,14 @@
                 </div>
                 <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="footer-widget__column footer-widget__links clearfix">
-                        <h3 class="footer-widget__title">Links</h3>
+                        <h3 class="footer-widget__title">Liens</h3>
                         <ul class="footer-widget__links-list list-unstyled clearfix">
                             <li><a href="{{ route('about') }}">Apropos</a></li>
+<<<<<<< HEAD
                             <li><a href="{{ route('training') }}">Nos Formations</a></li>
+=======
+                            <li><a href="{{ route('trainings') }}">Nos Formations</a></li>
+>>>>>>> main
                             <li><a href="{{ route('donations') }}">Donations</a></li>
                             <li><a href="{{ route('departements') }}">Nos Départements</a></li>
                             <li><a href="{{ route('events') }}">Événements</a></li>
@@ -48,7 +48,11 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="footer-widget__column footer-widget__contact">
                         <h3 class="footer-widget__title">Contact</h3>
+<<<<<<< HEAD
                         <p class="footer-widget__contact-text">Rue du Supermarché Dupont,  
+=======
+                        <p class="footer-widget__contact-text">Rue du Supermarché Dupont, 
+>>>>>>> main
                             <br> Arconville, Abomey-Calavi, Benin
                         </p>
                         <ul class="list-unstyled footer-widget__contact-list">
@@ -65,7 +69,11 @@
                                     <i class="fas fa-phone-alt"></i>
                                 </div>
                                 <div class="text">
+<<<<<<< HEAD
                                     <p><a href="tel:980009630">+ 229 98 61 73 48</a></p>
+=======
+                                    <p><a href="tel:98617348">+ 229 98 61 73 48</a></p>
+>>>>>>> main
                                 </div>
                             </li>
                         </ul>

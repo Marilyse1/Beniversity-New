@@ -28,5 +28,12 @@ Route::get('/events', [HomeController::class,'events'])->name('events');
 Route::get('/event-details', [HomeController::class,'event_details'])->name('event-details');
 Route::get('/contact', [HomeController::class,'contact'])->name('contact');
 Route::get('/departements', [HomeController::class,'departements'])->name('departements');
+<<<<<<< HEAD
 Route::post('/departement-details', [HomeController::class,'departement_details'])->name('departement-details');
 Route::get('/training', [HomeController::class,'training'])->name('training');
+=======
+Route::get('/departement-details', [HomeController::class,'departement_details'])->name('departement-details');
+Route::get('/trainings', [HomeController::class,'trainings'])->name('trainings');
+Route::get('/blog-details', [HomeController::class,'blog_details'])->name('blog-details');
+Route::get('/become-volunteer', [HomeController::class,'become_volunteer'])->name('become-volunteer');
+>>>>>>> main

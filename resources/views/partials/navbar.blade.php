@@ -16,7 +16,7 @@
                                     <img src="assets/images/icon/main-menu-heart-icon.png" alt="">
                                 </div>
                                 <div class="main-menu__volunteers-text-box">
-                                    <p class="main-menu__volunteers-text"><a href="become-volunteer.html">Devenir un
+                                    <p class="main-menu__volunteers-text"><a href="{{ route('become-volunteer') }}">Devenir un
                                             <span>volontaire</span></a></p>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Téléphone</p>
-                                            <h5><a href="tel:980009630">+ 229 98 61 73 48</a></h5>
+                                            <h5><a href="tel:98617348">+ 229 98 61 73 48</a></h5>
                                         </div>
                                     </li>
                                     <li>
@@ -39,7 +39,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Email</p>
-                                            <h5><a href="mailto:needhelp@company.com">contact@beniversity.com</a>
+                                            <h5><a href="mailto:contact@beniversity.com">contact@beniversity.com</a>
                                             </h5>
                                         </div>
                                     </li>
@@ -47,9 +47,9 @@
                                         <div class="icon">
                                             <span class="icon-location"></span>
                                         </div>
-                                        <div class="content">
-                                            <p>Cotonou, Benin</p>
-                                            <h5>Melbourne, Australia</h5>
+                                        <div class="content"> 
+                                            <p>Rue du Supermarché Dupont,</p>
+                                            <h5>Arconville, Abomey-Calavi, Benin</h5>
                                         </div>
                                     </li>
                                 </ul>
@@ -68,6 +68,7 @@
                             <ul class="main-menu__list">
                                 <li class="current megamenu">
                                     <a href="{{ route('home') }}">Accueil</a>
+<<<<<<< HEAD
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Apropos</a>
@@ -106,7 +107,30 @@
                                 </li>
                                 <li>
                                     <a href="{{ route('contact') }}">Contact</a>
+=======
                                 </li>
+                                <li>
+                                    <a href="{{ route('about') }}">Apropos</a>
+>>>>>>> main
+                                </li>
+                                <li>
+                                    <a href="{{ route('trainings') }}">Formations</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('donations') }}">Donations</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('departements') }}">Departements</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('events') }}">Événements</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('blog') }}">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('contact') }}">Contact</a>
+                                <li>
                             </ul>
                         </div>
                         <div class="main-menu__main-menu-content-box">
@@ -114,9 +138,6 @@
                                 <div class="main-menu__search-box">
                                     <a href="#"
                                         class="main-menu__search search-toggler icon-magnifying-glass"></a>
-                                </div>
-                                <div class="main-menu__cat-box">
-                                    <a href="cart.html" class="main-menu__cart icon-shopping-cart"></a>
                                 </div>
                                 <div class="main-menu__btn-box" style="background: #ffd105" >
                                     <a href="donate-now.html" class="main-menu__btn" style="background: #ffd105"> <span
@@ -130,4 +151,4 @@
             </div>
         </div>
     </nav>
-</header>
+</header>             

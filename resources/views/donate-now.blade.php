@@ -9,7 +9,11 @@
         <div class="container">
             <div class="page-header__inner">
                 <ul class="thm-breadcrumb list-unstyled">
+<<<<<<< HEAD
                     <li><a href="{{ route('home') }}">Accueil</a></li>
+=======
+                    <li><a href="index.html">Home</a></li>
+>>>>>>> main
                     <li><span>/</span></li>
                     <li class="active">Faire un don maintenant</li>
                 </ul>

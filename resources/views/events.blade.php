@@ -149,5 +149,10 @@
         </div>
     </section>
     <!--Events Page End-->
+<<<<<<< HEAD
+=======
+
+@endsection
+>>>>>>> main
 
 @endsection

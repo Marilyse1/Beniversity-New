@@ -9,7 +9,11 @@
         <div class="container">
             <div class="page-header__inner">
                 <ul class="thm-breadcrumb list-unstyled">
+<<<<<<< HEAD
                     <li><a href="index.html">Accueil</a></li>
+=======
+                    <li><a href="{{ route('home') }}">Accueil</a></li>
+>>>>>>> main
                     <li><span>/</span></li>
                     <li class="active">Détails département</li>
                 </ul>
@@ -18,7 +22,11 @@
         </div>
     </section>
     <!--Page Header End-->
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> main
     <!--News details Start-->
     <section class="news-details">
         <div class="container">
@@ -30,9 +38,15 @@
                         </div>
                         <div class="news-details__content">
                             <ul class="list-unstyled news-details__meta">
+<<<<<<< HEAD
                                 <li><a href="{{ route('departement-details') }}"><i class="far fa-user-circle"></i> Admin</a>
                                 </li>
                                 <li><a href="{{ route('departement-details') }}"><i class="fas fa-comments"></i> 2
+=======
+                                <li><a href="news-details.html"><i class="far fa-user-circle"></i> Admin</a>
+                                </li>
+                                <li><a href="news-details.html"><i class="fas fa-comments"></i> 2
+>>>>>>> main
                                         Comments</a>
                                 </li>
                             </ul>
@@ -106,7 +120,11 @@
         </div>
     </section>
     <!--Events Page End-->
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> main
                         <div class="news-details__bottom">
                             <p class="news-details__tags">
                                 <span>Tags</span>
@@ -137,7 +155,11 @@
                                     <p>It has survived not only five centuries, but also the leap into electronic
                                         typesetting unchanged. It was popularised in the sheets containing lorem
                                         ipsum is simply free text.</p>
+<<<<<<< HEAD
                                     <a href="{{ route('departement-details') }}" class="thm-btn comment-one__btn">Reply</a>
+=======
+                                    <a href="news-details.html" class="thm-btn comment-one__btn">Reply</a>
+>>>>>>> main
                                 </div>
                             </div>
                             <div class="comment-one__single">
@@ -149,7 +171,11 @@
                                     <p>It has survived not only five centuries, but also the leap into electronic
                                         typesetting unchanged. It was popularised in the sheets containing lorem
                                         ipsum is simply free text.</p>
+<<<<<<< HEAD
                                     <a href="{{ route('departement-details') }}" class="thm-btn comment-one__btn">Reply</a>
+=======
+                                    <a href="news-details.html" class="thm-btn comment-one__btn">Reply</a>
+>>>>>>> main
                                 </div>
                             </div>
                         </div>
@@ -204,7 +230,11 @@
                                         <h3>
                                             <span class="sidebar__post-content-meta"><i
                                                     class="fas fa-user-circle"></i> By admin</span>
+<<<<<<< HEAD
                                             <a href="{{ route('departement-details') }}">Promoting the rights
+=======
+                                            <a href="news-details.html">Promoting the rights
+>>>>>>> main
                                                 of children</a>
                                         </h3>
                                     </div>
@@ -217,7 +247,11 @@
                                         <h3>
                                             <span class="sidebar__post-content-meta"><i
                                                     class="fas fa-user-circle"></i> By admin</span>
+<<<<<<< HEAD
                                             <a href="{{ route('departement-details') }}">There are many variations of</a>
+=======
+                                            <a href="news-details.html">There are many variations of</a>
+>>>>>>> main
                                         </h3>
                                     </div>
                                 </li>
@@ -229,7 +263,11 @@
                                         <h3>
                                             <span class="sidebar__post-content-meta"><i
                                                     class="fas fa-user-circle"></i> By admin</span>
+<<<<<<< HEAD
                                             <a href="{{ route('departement-details') }}">Bring to the table win-win survival</a>
+=======
+                                            <a href="news-details.html">Bring to the table win-win survival</a>
+>>>>>>> main
                                         </h3>
                                     </div>
                                 </li>
@@ -240,6 +278,7 @@
                                 style="background-image: url(assets/images/shapes/sidebar-shape-1.png);"></div>
                             <h3 class="sidebar__title">Categories</h3>
                             <ul class="sidebar__category-list list-unstyled">
+<<<<<<< HEAD
                                 <li><a href="{{ route('departement-details') }}">Donations <span class="icon-right-arrow"></span></a>
                                 </li>
                                 <li class="active"><a href="{{ route('departement-details') }}">Charity <span
@@ -250,6 +289,18 @@
                                 <li><a href="{{ route('departement-details') }}">Food & Water <span
                                             class="icon-right-arrow"></span></a></li>
                                 <li><a href="{{ route('departement-details') }}">Kids Education <span
+=======
+                                <li><a href="news-details.html">Donations <span class="icon-right-arrow"></span></a>
+                                </li>
+                                <li class="active"><a href="news-details.html">Charity <span
+                                            class="icon-right-arrow"></span></a></li>
+                                <li><a href="news-details.html">Fundraising <span
+                                            class="icon-right-arrow"></span></a>
+                                </li>
+                                <li><a href="news-details.html">Food & Water <span
+                                            class="icon-right-arrow"></span></a></li>
+                                <li><a href="news-details.html">Kids Education <span
+>>>>>>> main
                                             class="icon-right-arrow"></span></a>
                                 </li>
                             </ul>
@@ -314,5 +365,9 @@
         </div>
     </section>
     <!--News details End-->
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> main
 @endsection
