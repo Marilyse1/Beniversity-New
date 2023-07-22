@@ -30,3 +30,5 @@ Route::get('/contact', [HomeController::class,'contact'])->name('contact');
 Route::get('/departements', [HomeController::class,'departements'])->name('departements');
 Route::get('/departement-details', [HomeController::class,'departement_details'])->name('departement-details');
 Route::get('/trainings', [HomeController::class,'trainings'])->name('trainings');
+Route::get('/blog-details', [HomeController::class,'blog_details'])->name('blog-details');
+Route::get('/become-volunteer', [HomeController::class,'become_volunteer'])->name('become-volunteer');

@@ -51,6 +51,16 @@ class HomeController extends Controller
         return view('event-details');
     }
 
+    public function blog_details()
+    {
+        return view('blog-details');
+    }
+
+    public function become_volunteer()
+    {
+        return view('become-volunteer');
+    }
+
     public function contact()
     {
         return view('contact');

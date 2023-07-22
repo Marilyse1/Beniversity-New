@@ -16,7 +16,7 @@
                                     <img src="assets/images/icon/main-menu-heart-icon.png" alt="">
                                 </div>
                                 <div class="main-menu__volunteers-text-box">
-                                    <p class="main-menu__volunteers-text"><a href="become-volunteer.html">Devenir un
+                                    <p class="main-menu__volunteers-text"><a href="{{ route('become-volunteer') }}">Devenir un
                                             <span>volontaire</span></a></p>
                                 </div>
                             </div>

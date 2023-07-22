@@ -8,11 +8,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__about-logo">
-                            <a href="{{ route('home') }}"><img src="assets/images/resources/footer-logo.png" alt=""></a>
-                        </div>
-                        <div class="footer-widget__about-text-box">
-                            <p class="footer-widget__about-text">Nulla ultricies justo sit amet ante efficitur,
-                                eget pharetra augue efficitur. Vestibulum viverra, dolor sit amet ultricies.</p>
+                            <a href="{{ route('home') }}"><img src="assets/images/resources/logo.png" alt="" style="max-width: 240px; max-height: 240px"></a>
                         </div>
                         <div class="footer-widget__btn">
                             <a href="{{ route('donate-now') }}"> <span class="fa fa-heart"></span>FAIRE UN DON MAINTENANT</a>
