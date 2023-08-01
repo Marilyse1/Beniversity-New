@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\EventController;
+use App\Http\Controllers\TrainingController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +35,10 @@ Route::get('/departement-details', [HomeController::class,'departement_details']
 Route::get('/trainings', [HomeController::class,'trainings'])->name('trainings');
 Route::get('/blog-details', [HomeController::class,'blog_details'])->name('blog-details');
 Route::get('/become-volunteer', [HomeController::class,'become_volunteer'])->name('become-volunteer');
+
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+Route::get('/dashboard/event', [EventController::class, 'index'])->name('dashboard_event');
+
+Route::get('/dashboard/training', [TrainingController::class, 'index'])->name('dashboard_training');
