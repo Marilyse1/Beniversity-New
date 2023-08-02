@@ -149,14 +149,14 @@
             <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                         class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
                 <ul aria-expanded="false">
-                    <li><a href="./index.html">Dashboard 1</a></li>
-                    <li><a href="./index2.html">Dashboard 2</a></li>
+                    <li><a href="{{ route('admin') }}">Dashboard 1</a></li>
+                    <li><a href="{{ route('admin') }}">Dashboard 2</a></li>
                 </ul>
             </li>
-            <li><a href="{{ route('dashboard') }}" aria-expanded="false"><i class="icon icon-globe-2"></i><span
+            <li><a href="{{ route('event') }}" aria-expanded="false"><i class="icon icon-globe-2"></i><span
                 class="nav-text">Evenement</span></a>
             </li>
-            <li><a href="{{ route('dashboard_training') }}" aria-expanded="false"><i class="icon icon-globe-2"></i><span
+            <li><a href="{{ route('training') }}" aria-expanded="false"><i class="icon icon-globe-2"></i><span
                 class="nav-text">Formations</span></a>
             </li>
             <li class="nav-label">Apps</li>

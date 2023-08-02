@@ -12,7 +12,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        return view('dashboard/event');
+        return view('admin/event');
     }
 
     /**
@@ -28,7 +28,33 @@ class EventController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title' => 'required',
+            'image' => 'required',
+            'date' => 'required',
+            'time' => 'required',
+            'description' => 'required',
+            'location' => 'required',
+            'category_id' => 'required',
+        ]);
+
+        if($request->file('image')){
+            $file = $request->file('image');
+            $filename = date('YmdHi').$file->getClientOriginalName();
+            $file->move(public_path('public/images'), $filename);
+            
+            Category::create([
+                'title' => $request->title,
+                'image' => $filename,
+                'date' => $request->date,
+                'time' => $request->time,
+                'description' => $request->description,
+                'location' => $request->location,
+                'category_id' => $request->category_id,
+            ]);
+        }
+
+        return redirect("dashboard/category")->withSuccess('You have signed-in');
     }
 
     /**
@@ -52,7 +78,34 @@ class EventController extends Controller
      */
     public function update(Request $request, Event $event)
     {
-        //
+        $validator = Validator::make($request->all(), [
+            'title' => 'required',
+            'image' => 'required',
+            'date' => 'required',
+            'time' => 'required',
+            'description' => 'required',
+            'location' => 'required',
+            'category_id' => 'required',
+        ]);
+
+        if($request->file('image')){
+            $file = $request->file('image');
+            $filename = date('YmdHi').$file->getClientOriginalName();
+            $file->move(public_path('public/images'), $filename);
+
+            Category::whereId($id)->update([
+                'title' => $request->title,
+                'image' => $filename,
+                'date' => $request->date,
+                'time' => $request->time,
+                'description' => $request->description,
+                'location' => $request->location,
+                'category_id' => $request->category_id,
+            ]);
+        }
+
+        return redirect("dashboard/category")->withSuccess('Modifié avec succès');
+
     }
 
     /**
@@ -60,6 +113,9 @@ class EventController extends Controller
      */
     public function destroy(Event $event)
     {
-        //
+        $category = Category::findOrFail($id);
+        $category->delete();
+        $categories = Category::all();
+        return view('dashboard/category', compact('categories'))->with('success', 'Catégorie supprimé avec succès');
     }
 }
